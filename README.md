@@ -1,0 +1,2 @@
+# React useEffect Hook Not Updating Correctly
+This repository demonstrates a common issue with the React useEffect hook where the dependency array is not correctly specified, leading to unexpected behavior. The bug is that the count variable is not included in the dependency array of the useEffect hook. This causes the effect to only run once when the component mounts, rather than every time the count changes.  The solution shows how to fix this by adding count to the dependency array. 
